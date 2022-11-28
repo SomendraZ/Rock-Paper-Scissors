@@ -1,0 +1,132 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#h{
+    display: flex;
+    justify-content: center;
+    color: rgb(90, 37, 192);
+    font-size: xxx-large;
+}
+#hs{
+    color: white;
+    font-size: xx-large;
+}
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+#pb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#hg{
+    color: white;
+    font-size:  400%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pg {
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: #ffc434;
+}
+#cg {
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: #ffc434;
+}
+#game{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#you,#computer{
+    color: white;
+    font-size: xx-large;
+}
+#button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#pg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#cg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#stp{
+    display: none;
+}
+#pap{
+    display: none;
+}
+#scp{
+    display: none;
+}
+#stc{
+    display: none;
+    margin-bottom: 75px;
+}
+#pac{
+    display: none;
+    margin-bottom: 75px;
+}
+#scc{
+    display: none;
+    margin-bottom: 75px;
+}
+.popup{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+}
+#play-again{
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    background-color: rgb(90, 37, 192);
+    color: #ffffff;
+    border-radius: 0.2em;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#message{
+    color: #ffc434;
+    text-align: center;
+    font-size: 1em;
+}
+.popup.hide{
+    display: none;
+}
+  

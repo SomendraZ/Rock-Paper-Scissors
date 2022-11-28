@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <h1 id="hg">
+        <div id="y">0</div>&nbsp-&nbsp<div id="c">0</div>
+    </h1>
+    <div id="game">
+        <div id="pg">
+            <div id="you">You</div>
+            <div id="stp">
+                <img src="./assets/rock-hand.png" alt="" style="width : 100%">
+            </div>
+            <div id="pap">
+                <img src="./assets/paper-hand.png" alt="" style="width : 90%">
+            </div>
+            <div id="scp">
+                <img src="./assets/scissors-hand.png" alt="" style="width : 100%">
+            </div>
+            <div id="button">
+                <div id="b1">
+                    <img src="./assets/rock-logo.png" alt="" style="width : 75%">
+                </div>
+                <div id="b2">
+                    <img src="./assets/paper-logo.png" alt="" style="width : 75%">
+                </div>
+                <div id="b3">
+                    <img src="./assets/scissors-logo.png" alt="" style="width : 75%">
+                </div>
+            </div>
+        </div>
+        <img src="./assets/vs.png" alt="" width="7%">
+        <div id="cg">
+            <div id="computer">Computer</div>
+            <div id="stc">
+                <img src="./assets/rock-hand.png" alt="" width="100%">
+            </div>
+            <div id="pac">
+                <img src="./assets/paper-hand.png" alt="" width="100%">
+            </div>
+            <div id="scc">
+                <img src="./assets/scissors-hand.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+    <div class="popup hide">
+        <p id="message">Sample Message</p>
+        <button id="play-again">Play Again</button>
+    </div>
+    <div id="bottom"></div>
+    <script src="game.js"></script>
+</body>
+</html>
